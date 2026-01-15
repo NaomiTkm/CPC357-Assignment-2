@@ -33,7 +33,7 @@ ENERGY_RATE = 0.48  # RM per kWh (NEM 3.0)
 TIMEZONE = 'Asia/Kuala_Lumpur'
 
 # [CRITICAL] REPLACE THIS WITH YOUR REAL API KEY
-GOOGLE_API_KEY = "AIzaSyC_f1pOco20yzW-3QwVZQ5jWyldML_Qczc" 
+GOOGLE_API_KEY = "place_google_api_key_here" 
 
 # --- AUTHENTICATION FLOW ---
 if not google_auth.render_login(GOOGLE_API_KEY):
@@ -268,3 +268,4 @@ with tab2:
 if live_mode:
     time.sleep(3)
     st.rerun()
+
