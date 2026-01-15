@@ -1,0 +1,10 @@
+streamlit
+google-cloud-firestore
+pandas
+numpy
+scikit-learn
+plotly
+extra-streamlit-components
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
