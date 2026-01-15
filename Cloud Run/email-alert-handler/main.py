@@ -10,7 +10,7 @@ from google.cloud import firestore
 
 # --- SECURITY CONFIGURATION ---
 SENDER_EMAIL = "naomitham.usm@gmail.com" 
-APP_PASSWORD = "zlhw jish pvje vjwt" 
+APP_PASSWORD = "abcd efgh ijkl mnop" # To replace with own created app password in Google
 
 # Initialize DB Client
 db = firestore.Client(database="home-solar-monitoring")
@@ -117,3 +117,4 @@ def subscribe(cloud_event):
     except Exception as e:
         print(f"FAILED to send email: {e}")
         raise e
+
