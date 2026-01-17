@@ -105,8 +105,6 @@ Mosquitto_sub -t “inverter/readings”
 <img width="929" height="245" alt="image" src="https://github.com/user-attachments/assets/5e677fa8-057e-48ac-ad3a-aec5b6caebd6" />
 
 
-
-
 ### Frontend (Streamlit Dashboard)
 1. The app.py file serves as the main entry point for the Streamlit frontend. It connects to Firestore to visualize telemetry and runs the AI forecasting model.
 2. The dashboard is gated by google_auth.py. To make the login work:
@@ -176,9 +174,8 @@ gcloud run deploy solar-atap-dashboard --source . --region us-central1 --allow-u
 C. Navigate to Cloud Run console, look for solar-atap-dashboard and get the URL to access the dashboard
 
 ### User Interface
-```
 Solar ATAP PoC Website: https://solar-atap-dashboard-82861964922.us-central1.run.app/
-```
+
 #### Live Monitoring Dashboard
 <img width="959" height="469" alt="image" src="https://github.com/user-attachments/assets/fbe5290f-e432-4ec7-8571-4074bde56317" />
 <img width="959" height="467" alt="image" src="https://github.com/user-attachments/assets/edf44775-65ba-4a46-b309-c93aaf53194b" />
